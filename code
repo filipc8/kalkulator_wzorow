@@ -1,0 +1,87 @@
+import math
+
+z = (input())
+
+if z == "1":
+    a = int(input())
+    print(math.pow(a, 2))
+
+if z == "2":
+    a = int(input())
+    print(4*a)
+
+if z == "3":
+    a = int(input())
+    b = int(input())
+    print(a*b)
+
+if z == "4":
+    a = int(input())
+    b = int(input())
+    print((2*a) + (2 * b) )
+
+if z == "5":
+    a = int(input())
+    h = int(input())
+    print(a*h/2)
+
+if z == "6":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    print(a+b+c)
+
+if z == "7":
+    a = int(input())
+    h = int(input())
+    print(a*h)
+
+if z == "8":
+    a = int(input())
+    print(math.pow(a, 2)*math.pi)
+if z == "9":
+    a = int(input())
+    print(a*(math.sqrt(2)))
+if z == "10":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    print((a+b+c))
+if z == "11":
+    a = int(input())
+    print((3 * a))
+if z == "12":
+    a = int(input())
+    print((2 * math.pi * a))
+if z == "13":
+    a = int(input())
+    print((math.pow(a, 2)))
+if z == "14":
+    a = int(input())
+    print((math.pow(a, 3)))
+if z == "15":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    print((a * b * c))
+if z == "16":
+    a = int(input())
+    b = int(input())
+    print((a * b))
+if z == "17":
+    a = int(input())
+    b = int(input())
+    print(((math.pow(a, 2)*math.pi)*b))
+if z == "18":
+    a = int(input())
+    b = int(input())
+    print(((math.pow(a, 2)*math.pi)*b/3))
+if z == "19":
+    a = int(input())
+    print(((4/3)*(math.pow(a, 3)*math.pi)))
+elif z == "20":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+    print((a+b+c+d))    
